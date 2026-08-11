@@ -1,5 +1,7 @@
+/* Imports */
 @use "base/reset";
 @use "base/typography";
+@use "base/variables";
 
 @use "components/buttons";
 @use "components/cards";
@@ -7,16 +9,49 @@
 @use "layout/flexbox";
 @use "layout/spacing";
 
+/* Define all CSS variables */
+:root {
+  --spacing-xxs: #{variables.$spacing-xxs};
+  --spacing-xs: #{variables.$spacing-xs};
+  --spacing-sm: #{variables.$spacing-sm};
+  --spacing-md: #{variables.$spacing-md};
+  --spacing-lg: #{variables.$spacing-lg};
+  --spacing-xl: #{variables.$spacing-xl};
+  --spacing-xxl: #{variables.$spacing-xxl};
+}
+
 body {
   div {
     background-color: pink;
   }
 
   h1 {
-    font-style: italic;
+    color: blue;
   }
 
   p {
     color: green;
   }
+}
+
+.div-1 {
+  padding-left: var(--spacing-xxs);
+}
+.div-2 {
+  padding-left: var(--spacing-xs);
+}
+.div-3 {
+  padding-left: var(--spacing-sm);
+}
+.div-4 {
+  padding-left: var(--spacing-md);
+}
+.div-5 {
+  padding-left: var(--spacing-lg);
+}
+.div-6 {
+  padding-left: var(--spacing-xl);
+}
+.div-7 {
+  padding-left: var(--spacing-xxl);
 }

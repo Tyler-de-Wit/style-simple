@@ -1,3 +1,4 @@
+/* Imports */
 /* Box sizing and reset margin, padding and border */
 *,
 *::before,
@@ -80,14 +81,54 @@ h6 {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Spacing varibles to be used for margins and padding */
+/* Define all CSS variables */
+:root {
+  --spacing-xxs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+  --spacing-xxl: 8rem;
+}
+
 body div {
   background-color: pink;
 }
 body h1 {
-  font-style: italic;
+  color: blue;
 }
 body p {
   color: green;
+}
+
+.div-1 {
+  padding-left: var(--spacing-xxs);
+}
+
+.div-2 {
+  padding-left: var(--spacing-xs);
+}
+
+.div-3 {
+  padding-left: var(--spacing-sm);
+}
+
+.div-4 {
+  padding-left: var(--spacing-md);
+}
+
+.div-5 {
+  padding-left: var(--spacing-lg);
+}
+
+.div-6 {
+  padding-left: var(--spacing-xl);
+}
+
+.div-7 {
+  padding-left: var(--spacing-xxl);
 }
 
 /*# sourceMappingURL=style-simple.css.map */
