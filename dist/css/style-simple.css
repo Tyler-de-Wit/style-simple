@@ -82,6 +82,64 @@ h6 {
 }
 
 /* Spacing varibles to be used for margins and padding */
+/* Margins */
+.m-xxs {
+  margin: var(--margin-xxs);
+}
+
+.m-xs {
+  margin: var(--margin-xs);
+}
+
+.m-sm {
+  margin: var(--margin-sm);
+}
+
+.m-md {
+  margin: var(--margin-md);
+}
+
+.m-lg {
+  margin: var(--margin-lg);
+}
+
+.m-xl {
+  margin: var(--margin-xl);
+}
+
+.m-xxl {
+  margin: var(--margin-xxl);
+}
+
+/* Padding */
+.p-xxs {
+  padding: var(--padding-xxs);
+}
+
+.p-xs {
+  padding: var(--padding-xs);
+}
+
+.p-sm {
+  padding: var(--padding-sm);
+}
+
+.p-md {
+  padding: var(--padding-md);
+}
+
+.p-lg {
+  padding: var(--padding-lg);
+}
+
+.p-xl {
+  padding: var(--padding-xl);
+}
+
+.p-xxl {
+  padding: var(--padding-xxl);
+}
+
 /* Define all CSS variables */
 :root {
   --spacing-xxs: 0.25rem;
@@ -91,6 +149,20 @@ h6 {
   --spacing-lg: 4rem;
   --spacing-xl: 6rem;
   --spacing-xxl: 8rem;
+  --margin-xxs: var(--spacing-xxs);
+  --margin-xs: var(--spacing-xs);
+  --margin-sm: var(--spacing-sm);
+  --margin-md: var(--spacing-md);
+  --margin-lg: var(--spacing-lg);
+  --margin-xl: var(--spacing-xl);
+  --margin-xxl: var(--spacing-xxl);
+  --padding-xxs: var(--spacing-xxs);
+  --padding-xs: var(--spacing-xs);
+  --padding-sm: var(--spacing-sm);
+  --padding-md: var(--spacing-md);
+  --padding-lg: var(--spacing-lg);
+  --padding-xl: var(--spacing-xl);
+  --padding-xxl: var(--spacing-xxl);
 }
 
 body div {
@@ -101,34 +173,6 @@ body h1 {
 }
 body p {
   color: green;
-}
-
-.div-1 {
-  padding-left: var(--spacing-xxs);
-}
-
-.div-2 {
-  padding-left: var(--spacing-xs);
-}
-
-.div-3 {
-  padding-left: var(--spacing-sm);
-}
-
-.div-4 {
-  padding-left: var(--spacing-md);
-}
-
-.div-5 {
-  padding-left: var(--spacing-lg);
-}
-
-.div-6 {
-  padding-left: var(--spacing-xl);
-}
-
-.div-7 {
-  padding-left: var(--spacing-xxl);
 }
 
 /*# sourceMappingURL=style-simple.css.map */
