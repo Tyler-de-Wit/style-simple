@@ -37,6 +37,15 @@
   --padding-lg: var(--spacing-lg);
   --padding-xl: var(--spacing-xl);
   --padding-xxl: var(--spacing-xxl);
+
+  // Font Size
+  --font-size-xxs: #{variables.$font-size-xxs};
+  --font-size-xs: #{variables.$font-size-xs};
+  --font-size-sm: #{variables.$font-size-sm};
+  --font-size-md: #{variables.$font-size-md};
+  --font-size-lg: #{variables.$font-size-lg};
+  --font-size-xl: #{variables.$font-size-xl};
+  --font-size-xxl: #{variables.$font-size-xxl};
 }
 
 body {
