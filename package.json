@@ -1,0 +1,21 @@
+{
+  "name": "style-simple",
+  "version": "1.0.0",
+  "description": "CSS Library with an easy syntax that is simple to use",
+  "main": "dist/css/style-simple.min.css",
+  "scripts": {
+    "build": "sass src/main.scss dist/css/style-simple.css & sass --style=compressed src/main.scss dist/css/style-simple.min.css",
+    "watch": "sass --watch src/main.scss dist/css/style-simple.css & sass --watch --style=compressed src/main.scss dist/css/style-simple.min.css"
+  },
+  "keywords": [
+    "CSS",
+    "Library",
+    "CSS Library",
+    "SASS",
+    "SCSS"
+  ],
+  "type": "commonjs",
+  "devDependencies": {
+    "sass": "^1.102.0"
+  }
+}

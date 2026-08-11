@@ -1,0 +1,22 @@
+@use "base/reset";
+@use "base/typography";
+
+@use "components/buttons";
+@use "components/cards";
+
+@use "layout/flexbox";
+@use "layout/spacing";
+
+body {
+  div {
+    background-color: pink;
+  }
+
+  h1 {
+    font-style: italic;
+  }
+
+  p {
+    color: green;
+  }
+}
