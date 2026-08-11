@@ -8,6 +8,12 @@
   border: 0;
 }
 
+/* Hide overflow on mobile screens */
+html,
+body {
+  overflow-x: hidden;
+}
+
 /* Inherit fonts for form controls */
 input,
 button,
